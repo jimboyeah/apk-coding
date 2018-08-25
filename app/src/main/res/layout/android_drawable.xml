@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+
+
+	<ImageView
+		android:src="@android:drawable/alert_dark_frame"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"/>
+
+	<ImageView
+		android:src="@android:drawable/alert_light_frame"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/arrow_down_float"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/arrow_up_float"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/bottom_bar"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/btn_default"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/btn_default_small"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/btn_dialog"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/btn_dropdown"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/btn_minus"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/btn_plus"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/btn_radio"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/btn_star"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/btn_star_big_off"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/btn_star_big_on"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/button_onoff_indicator_off"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/button_onoff_indicator_on"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/checkbox_off_background"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/checkbox_on_background"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/dark_header"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/dialog_frame"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/edit_text"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/editbox_background"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/editbox_background_normal"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/editbox_dropdown_dark_frame"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/editbox_dropdown_light_frame"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/gallery_thumb"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_btn_speak_now"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_delete"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_dialog_alert"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_dialog_dialer"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_dialog_email"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_dialog_info"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_dialog_map"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_input_add"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_input_delete"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_input_get"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_lock_idle_alarm"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_lock_idle_charging"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_lock_idle_lock"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_lock_idle_low_battery"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_lock_lock"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_lock_power_off"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_lock_silent_mode"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_lock_silent_mode_off"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_media_ff"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_media_next"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_media_pause"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_media_play"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_media_previous"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_media_rew"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_add"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_agenda"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_always_landscape_portrait"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_call"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_camera"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_close_clear_cancel"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_compass"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_crop"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_day"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_delete"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_directions"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_edit"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_help"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_info_details"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_manage"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_mapmode"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_month"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_more"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_my_calendar"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_mylocation"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_myplaces"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_preferences"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_recent_history"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_report_image"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_revert"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_rotate"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_save"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_search"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_send"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_set_as"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_share"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_slideshow"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_sort_alphabetically"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_sort_by_size"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_today"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_upload"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_upload_you_tube"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_view"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_week"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_menu_zoom"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_notification_clear_all"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_notification_overlay"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_partial_secure"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_popup_disk_full"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_popup_reminder"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_popup_sync"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_search_category_default"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_secure"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/menu_frame"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/menu_full_frame"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/picture_frame"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/presence_away"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/presence_busy"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/presence_invisible"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/presence_offline"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/presence_online"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/radiobutton_off_background"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/radiobutton_on_background"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/spinner_background"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/spinner_dropdown_background"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/star_big_off"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/star_big_on"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/star_off"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/star_on"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_notify_call_mute"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_notify_chat"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_notify_error"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_notify_missed_call"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_notify_more"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_notify_sdcard"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_notify_sdcard_prepare"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_notify_sdcard_usb"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_notify_sync"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_notify_sync_noanim"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_notify_voicemail"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_data_bluetooth"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_download"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_download_done"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_headset"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_phone_call"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_phone_call_forward"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_phone_call_on_hold"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_speakerphone"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_upload"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_upload_done"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_vp_phone_call"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_vp_phone_call_on_hold"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/stat_sys_warning"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/status_bar_item_app_background"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/status_bar_item_background"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/sym_action_call"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/sym_action_chat"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/sym_action_email"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/sym_call_incoming"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/sym_call_missed"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/sym_call_outgoing"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/sym_contact_card"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/sym_def_app_icon"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/title_bar"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/title_bar_tall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/toast_frame"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+	<ImageView
+		android:src="@android:drawable/zoom_plate"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:tileMode="disabled"
+		android:scaleType="fitCenter"
+		android:antialias="true"/>
+
+</LinearLayout>
+
+</ScrollView>

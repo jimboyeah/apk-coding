@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+	android:src="@drawable/set_title"
+	android:background="#22aaff"
+	android:tileMode="repeat"
+	android:scaleType="fitCenter"
+	android:antialias="true"
+	android:dither="true"/>   
+

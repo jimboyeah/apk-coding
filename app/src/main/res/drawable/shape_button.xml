@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">     
+	<solid android:color="#aaeeeeee" />
+	<corners android:radius="12dp" />
+	<stroke android:width="1dp" android:color="#cccccc" /> 
+	<padding android:padding="5dp" />
+	<gradient 
+		android:angle="90"
+		android:centerX="0.5"
+		android:centerY="1"
+		android:type="sweep"
+		android:startColor="#66228844"
+		android:endColor="#3388ddff" />
+</shape>
+<!--
+        android:angle="integer"
+        android:centerX="float[0,1]"
+        android:centerY="float[0,1]"
+        android:centerColor="integer"
+        android:endColor="color"
+        android:gradientRadius="integer"
+        android:startColor="color"
+        android:type=["linear" | "radial" | "sweep"]
+        android:useLevel=["true" | "false"]
+-->

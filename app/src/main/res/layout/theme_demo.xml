@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	columnCount="3"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	rowCount="3"
+	android:layout_gravity="fill">
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Colorful"
+		android:layout_column="0"
+		android:layout_row="3"
+		android:id="@+id/themedemoButtonColorful"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Grayness"
+		android:layout_column="3"
+		android:layout_row="3"
+		android:id="@+id/themedemoButtonGray"/>
+
+	<Switch
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_row="1"/>
+
+	<CheckBox
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"/>
+
+	<SeekBar
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"/>
+
+	<RadioButton
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_row="2"/>
+
+	<RadioButton
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"/>
+
+	<RadioButton
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"/>
+
+</GridLayout>
+

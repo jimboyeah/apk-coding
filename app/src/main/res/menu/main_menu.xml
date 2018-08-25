@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item android:id="@+id/menuMainStorage1" android:title="Storage Demo(Activity2View)" />
+	<item android:id="@+id/menuMainStorage2" android:title="Storage Demo(startAcctivity)" />
+	<item android:id="@+id/menuMainService" android:title="Service Demo" />
+	
+		<item android:id="@+id/menuMainAppIcon" 
+		android:orderInCategory="3"
+		android:icon="@drawable/state_list_drawable"
+		android:checkable="true"
+		android:title="Icon Replace" />
+	
+	<item android:id="@+id/menuMainListView" android:title="ListView Demo" />
+	<item android:id="@+id/menuMainReflection" android:title="Java Reflection" />
+	<item android:id="@+id/menuMainTheme" android:title="Theme Demo" />
+	<item android:id="@+id/menuMainDrawable" android:title="Android Drawable" />
+	<item android:id="@+id/menuMainLevelList" android:title="Level List Drawable" />
+	
+	<item android:id="@+id/menuMainSensors" android:title="Sensors Supported" />
+	<item android:id="@+id/menuMainProximity" android:title="Proximity Sensor" />
+	<item android:id="@+id/menuMainLightSensor" android:title="Light Sensor" />
+	<item android:id="@+id/menuMainAccelerator" android:title="Accelerator Sensor" />
+	<item android:id="@+id/menuMainGyroscope" android:title="Gyroscope Sensor" />
+	<item android:id="@+id/menuMainPressure" android:title="Pressure Sensor" />
+	<item android:id="@+id/menuMainMagnetic" android:title="Magnetic Sensor" />
+	<item android:id="@+id/menuMainMagneticRaw" android:title="Magnetic Raw Sensor" />
+	<item android:id="@+id/menuMainOrientation" android:title="Orientation" />
+	<item android:id="@+id/menuMainRotation" android:title="Rotation" />
+	<item android:id="@+id/menuMainStepCounter" android:title="Step Counter" />
+	<item android:id="@+id/menuMainStepDetector" android:title="Step Detector" />
+	<item android:id="@+id/menuMainPedometer" android:title="Step Pedometer" />
+	
+	
+	<item android:id="@+id/menuMainReturn"
+		android:title="Return Main"
+		android:icon="@drawable/icon" 
+		android:orderInCategory="3"
+		android:showAsAction="ifRoom"
+		/>
+		
+</menu>

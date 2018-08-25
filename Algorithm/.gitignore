@@ -1,0 +1,7 @@
+app/build/bin/*.dex
+app/build/bin/*.ap_
+app/build/bin/res
+app/build/bin/jardex
+app/build/bin/classesrelease
+app/build/bin/classesdebug
+app/build/bin/injected

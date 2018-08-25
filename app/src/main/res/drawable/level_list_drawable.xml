@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+		android:drawable="@drawable/box_blue" 
+		android:minLevel="0"
+		android:maxLevel="10"/>
+    <item
+		android:drawable="@drawable/box_light_blue" 
+		android:maxLevel="20"/>
+    <item 
+		android:drawable="@drawable/box_light_pink" 
+		android:maxLevel="30"/>
+    <item 
+		android:drawable="@drawable/box_pink" 
+		android:maxLevel="40"/>
+</level-list> 
+	

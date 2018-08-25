@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<ListView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/listviewdemoListView1"
+		android:layout_gravity="top"
+		android:layout_weight="2"
+		/>
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Text"
+		android:background="@drawable/shape"
+		android:id="@+id/listviewdemoTextView1"
+		android:shadowColor="#aa2288ff"  
+		android:shadowRadius="1"  
+		android:shadowDx="1"  
+		android:shadowDy="1"  />
+
+	<GridLayout
+		columnCount="1"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		rowCount="1"
+		android:background="#D6F7FE"
+		android:columnCount="5"
+		android:layout_gravity="center">
+
+		<Button
+			android:onClick="onClickFill"
+			android:text="Strings"
+			android:layout_width="wrap_content"
+			android:id="@+id/listviewdemoButtonFill"
+			style="?android:attr/buttonStyleSmall"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Simple"
+			android:id="@+id/listviewdemoButtonSimple"
+			style="?android:attr/buttonStyleSmall"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Custom"
+			android:id="@+id/listviewdemoButtonAdvanced"
+			style="?android:attr/buttonStyleSmall"/>
+
+		<Button
+			android:onClick="onClickClear"
+			android:text="Clear"
+			android:layout_width="wrap_content"
+			android:id="@+id/listviewdemoButtonClear"
+			style="?android:attr/buttonStyleSmall"/>
+
+		<Button
+			android:onClick="onClickReorder"
+			android:text="Reorder"
+			android:layout_width="wrap_content"
+			android:id="@+id/listviewdemoButtonReorder"
+			style="?android:attr/buttonStyleSmall"/>
+
+	</GridLayout>
+
+</LinearLayout>
+

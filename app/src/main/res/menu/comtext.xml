@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+		android:id="@+id/contextCopy"
+        android:title="Copy"/>
+	<item
+		android:id="@+id/contextClear"
+        android:title="Clear"/>
+	<item
+        android:id="@+id/contextCut"
+        android:title="Cut"/>
+	<group android:checkableBehavior="single">
+		<item
+			android:drawable="@android:drawable/btn_star_big_on"
+			android:id="@+id/contextSimplify"
+			android:title="Simplify"/>
+		<item
+			android:drawable="@android:drawable/btn_star_big_off"
+			android:id="@+id/contextVerbose"
+			android:title="Verbose"/>
+		
+	</group>
+</menu>

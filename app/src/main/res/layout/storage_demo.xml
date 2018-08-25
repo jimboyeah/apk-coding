@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="bottom"
+	android:orientation="vertical">
+
+	<EditText
+		android:layout_height="match_parent"
+		android:inputType="textMultiLine"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_weight="1"
+		android:id="@+id/storage_demoEditText"
+		android:background="#CCF5FF"
+		android:textAlignment="textStart"
+		android:text="Let's go"
+		android:gravity="top"/>
+
+	<TextView
+		android:layout_margin="1dp"
+		android:editable="true"
+		android:inputType="textMultiLine"
+		android:id="@+id/mainTextView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20dp"
+		android:text="Hi World"
+		style="@style/AppTheme"
+		android:layout_weight="0"
+		android:textAlignment="center"
+		android:gravity="center"
+		android:background="#86aadaff"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_weight="0"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="viewEnd"
+		android:gravity="bottom">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onExitButtonClick"
+			android:text="Exit"
+			style="?android:attr/buttonStyleSmall"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onDropButtonClick"
+			android:text="Drop"
+			style="?android:attr/buttonStyleSmall"
+			android:background="@drawable/gradient"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="W"
+			android:onClick="onClickWrite"
+			style="?android:attr/buttonStyleSmall"/>
+
+		<Button
+			style="?android:attr/buttonStyleSmall"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="R"
+			android:onClick="onClickRead"/>
+
+		<Button
+			style="?android:attr/buttonStyleSmall"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:onClick="onClickClear"
+			android:text="C"/>
+
+		<ToggleButton
+			android:onClick="onClickToggle"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:background="@drawable/shape_button"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

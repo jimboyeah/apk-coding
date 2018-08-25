@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<shape android:shape="rectangle">
+			<solid android:color="#ffffff" />
+			<corners android:radius="9dp" />
+			<stroke android:width="0dp" android:color="#cccccc" /> 
+			<padding android:padding="0dp" />
+			<gradient 
+				android:angle="90"
+				android:centerX="0.5"
+				android:centerY="0.5"
+				android:type="linear"
+				android:gradientRadius="7dp"
+				android:startColor="#66444477"
+				android:centerColor="#883377aa"
+				android:endColor="#66444477" />
+		</shape>
+	</item>
+	<item>
+		<shape android:shape="rectangle">
+			<solid android:color="#ffffff" />
+			<corners android:radius="9dp" />
+			<stroke android:width="0dp" android:color="#cccccc" /> 
+			<padding android:padding="0dp" />
+			<gradient 
+				android:angle="45"
+				android:centerX="0.5"
+				android:centerY="0.5"
+				android:type="radial"
+				android:gradientRadius="220dp"
+				android:startColor="#66221177"
+				android:centerColor="#665566ee"
+				android:endColor="#66221177" />
+		</shape>
+
+		<!--
+		android:angle="integer"
+		android:centerX="float[0,1]"
+		android:centerY="float[0,1]"
+		android:centerColor="integer"
+		android:endColor="color"
+		android:gradientRadius="integer"
+		android:startColor="color"
+		android:type=["linear" | "radial" | "sweep"]
+		android:useLevel=["true" | "false"]
+		-->
+	</item>
+</layer-list>

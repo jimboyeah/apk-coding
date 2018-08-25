@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+	<item 
+		android:state_pressed="true"
+		android:drawable="@drawable/box_pink">
+    </item>
+	<item
+		android:state_checked="true"
+		android:drawable="@drawable/box_red">
+	</item>
+	
+	<item
+		android:drawable="@drawable/box_blue">
+	</item>
+	
+</selector>
+
+	
+<!--
+android:state_pressed  	{true，当被点击时显示该图片，false没被按下时显示默认。
+android:state_focused   {true，获得焦点时显示；false没获得焦点显示默认。
+android:state_selected  {true，当被选择时显示该图片；是false未被选择时显示该图片。
+android:state_checkable {true，当CheckBox能使用时显示该图片；false，当CheckBox不能使用时显示该图片。
+android:state_checked   {true，当CheckBox选中时显示该图片；false，当CheckBox为选中时显示该图片。
+android:state_enabled   {true，当该组件能使用时显示该图片；false，当该组件不能使用时显示该图片。
+android:state_window_focused  {true，当此activity获得焦点在最前面时显示该图片；false，当没在最前面时显示该图。
+
+state_active:控件是否处于活动状态,eg:slidingTab
+state_single:控件包含多个子控件时,确定是否只显示一个子控件
+state_first:控件包含多个子控件时,确定第一个子控件是否处于显示状态
+state_middle:控件包含多个子控件时,确定中间一个子控件是否处于显示状态
+state_last:控件包含多个子控件时,确定最后一个子控件是否处于显示状态
+
+不带条件的item要放最后，以免引起符合条件被过滤。
+-->      
+

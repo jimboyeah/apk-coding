@@ -1,0 +1,24 @@
+android event flows
+
+1. 默认情况下dispatchTouchEvent(),onInterceptTouchEvent(),onTouchEvent()返回值都是false，表示不消费touch事件。
+
+2.view的事件分发过程：dispatchTouchEvent()->onTouchEvent()
+
+3.viewgroup事件分发过程:
+
+dispatchTouchEvent()->onInterceptTouchEvent()->onTouchEvent()
+
+4.对于View和ViewGroup来说，onTouch()的调用在onTouchEvent()之前。
+
+5. 如果设置了View的clickable属性，那么onTouchEvent()返回true
+
+6.返回值true表示关注此事件，如果一个View返回true，后续的事件都会分发给该View处理。
+
+7.如果一个View返回false，表示不关注此事件，那么该事件后续的action比如ACTION_MOVE，ACTION_UP都不会分发给该View。
+
+8.onInterceptTouchEvent()用来判断是否截取事件，默认不截取，如果返回true，表示截取该事件，那么之后的touch事件直接交由该View的onTouchEvent()进行处理。
+
+9. 可以通过requestDisallowInterceptTouchEvent()设置父类是否截取事件，传入true表示不截取事件。
+
+10. requestDisallowInterceptTouchEvent()不能在ViewGroup的dispathTouchEvent中设置，因为ACTION_DOWN到来是会重新把FLAG_DISALLOW_INTERCEP设置成false。
+
