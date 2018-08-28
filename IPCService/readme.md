@@ -509,20 +509,21 @@ View.OnClickListener, ServiceConnection
 
 #6、运行测试
 
-![图片发自简书App](http://upload-images.jianshu.io/upload_images/5509701-efc7376007e314b2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50)
-![图片发自简书App](http://upload-images.jianshu.io/upload_images/5509701-8ee11b99bd40d272.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50)
-![图片发自简书App](http://upload-images.jianshu.io/upload_images/5509701-30e6c67d77ffb644.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50)
-![图片发自简书App](http://upload-images.jianshu.io/upload_images/5509701-f7bdb474344f1bad.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50)
-![图片发自简书App](http://upload-images.jianshu.io/upload_images/5509701-54223c93b2aaaef9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50)
-![图片发自简书App](http://upload-images.jianshu.io/upload_images/5509701-586e13cea0030536.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50)
+<img width="25%" src="http://upload-images.jianshu.io/upload_images/5509701-efc7376007e314b2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50">
+<img width="25%" src="http://upload-images.jianshu.io/upload_images/5509701-8ee11b99bd40d272.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50">
+<img width="25%" src="http://upload-images.jianshu.io/upload_images/5509701-30e6c67d77ffb644.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50">
+<img width="25%" src="http://upload-images.jianshu.io/upload_images/5509701-f7bdb474344f1bad.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50">
+<img width="25%" src="http://upload-images.jianshu.io/upload_images/5509701-54223c93b2aaaef9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50">
+<img width="25%" src="http://upload-images.jianshu.io/upload_images/5509701-586e13cea0030536.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50">
 
 上图显示，客户端、服务端process id归属两个进程，因此是进程间调用，至此ipc服务交互实战完成。
 
-[图片发自简书App](http://upload-images.jianshu.io/upload_images/5509701-7ab16a6b201e1447.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50)
-[图片发自简书App](http://upload-images.jianshu.io/upload_images/5509701-ccc360a137a8124c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50)
-[图片发自简书App](http://upload-images.jianshu.io/upload_images/5509701-9a48aacce2342932.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50)
-[图片发自简书App](http://upload-images.jianshu.io/upload_images/5509701-b2a642df53afa9a1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50)
+<img width="25%" src="http://upload-images.jianshu.io/upload_images/5509701-7ab16a6b201e1447.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50">
+<img width="25%" src="http://upload-images.jianshu.io/upload_images/5509701-ccc360a137a8124c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50">
+<img width="25%" src="http://upload-images.jianshu.io/upload_images/5509701-9a48aacce2342932.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50">
+<img width="25%" src="http://upload-images.jianshu.io/upload_images/5509701-b2a642df53afa9a1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50">
 
+<img width="25%" src="https://upload-images.jianshu.io/upload_images/5509701-02603328b0bf79a1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/680">
 
 
 参考：[Android综合揭秘——全面剖释Service服务](https://www.cnblogs.com/leslies2/p/5401813.html)
